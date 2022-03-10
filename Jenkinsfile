@@ -12,6 +12,7 @@ pipeline {
                 sh "ls -l"
                 sh "zip test.zip  index.htm"
                 sh "zip -r test.zip second.html"
+                sh "zip -r test.zip second.html"
                 sh "ls -al "
 
                 // To run Maven on a Windows agent, use
